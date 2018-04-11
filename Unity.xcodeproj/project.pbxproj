@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		DE8EB7DC207EB780009CC75D /* TestFramework.swift in Headers */ = {isa = PBXBuildFile; fileRef = DE8EB7DA207EB780009CC75D /* TestFramework.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE8EB7E3207EB7DE009CC75D /* Unity.h in Headers */ = {isa = PBXBuildFile; fileRef = DE8EB7E1207EB7DE009CC75D /* Unity.h */; };
 		DE8EB7E4207EB7DE009CC75D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE8EB7E2207EB7DE009CC75D /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE8EB7D8207EB780009CC75D /* Unity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Unity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8EB7DA207EB780009CC75D /* TestFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFramework.swift; sourceTree = "<group>"; };
-		DE8EB7E1207EB7DE009CC75D /* Unity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unity.h; sourceTree = "<group>"; };
 		DE8EB7E2207EB7DE009CC75D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,7 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				DE8EB7E2207EB7DE009CC75D /* Info.plist */,
-				DE8EB7E1207EB7DE009CC75D /* Unity.h */,
 				DE8EB7DA207EB780009CC75D /* TestFramework.swift */,
 			);
 			path = Unity;
@@ -63,7 +60,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE8EB7E3207EB7DE009CC75D /* Unity.h in Headers */,
 				DE8EB7DC207EB780009CC75D /* TestFramework.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
