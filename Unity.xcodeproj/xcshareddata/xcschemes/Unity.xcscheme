@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE8EB76C207E9AAA009CC75D"
+               BlueprintIdentifier = "DE8EB7D7207EB780009CC75D"
                BuildableName = "Unity.framework"
                BlueprintName = "Unity"
                ReferencedContainer = "container:Unity.xcodeproj">
@@ -34,7 +34,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = ""
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE8EB76C207E9AAA009CC75D"
+            BlueprintIdentifier = "DE8EB7D7207EB780009CC75D"
             BuildableName = "Unity.framework"
             BlueprintName = "Unity"
             ReferencedContainer = "container:Unity.xcodeproj">
@@ -65,7 +65,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE8EB76C207E9AAA009CC75D"
+            BlueprintIdentifier = "DE8EB7D7207EB780009CC75D"
             BuildableName = "Unity.framework"
             BlueprintName = "Unity"
             ReferencedContainer = "container:Unity.xcodeproj">
