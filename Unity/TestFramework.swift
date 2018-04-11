@@ -9,9 +9,9 @@
 import Foundation
 
 
-class TestFramework {
+public class TestFramework {
     
-    func test() {
+    public func test() {
         print("test framework")
     }
     

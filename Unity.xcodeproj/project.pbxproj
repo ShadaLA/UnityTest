@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DE8EB772207E9AAA009CC75D /* Unity.h in Headers */ = {isa = PBXBuildFile; fileRef = DE8EB770207E9AAA009CC75D /* Unity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE8EB792207EB127009CC75D /* TestFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8EB791207EB127009CC75D /* TestFramework.swift */; };
+		DE8EB793207EB24F009CC75D /* TestFramework.swift in Resources */ = {isa = PBXBuildFile; fileRef = DE8EB791207EB127009CC75D /* TestFramework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -125,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8EB793207EB24F009CC75D /* TestFramework.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
