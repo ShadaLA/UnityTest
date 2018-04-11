@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <TestFramework.swift>
 
 //! Project version number for Unity.
 FOUNDATION_EXPORT double UnityVersionNumber;
