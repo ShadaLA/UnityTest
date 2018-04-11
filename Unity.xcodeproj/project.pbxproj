@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		DE8EB772207E9AAA009CC75D /* Unity.h in Headers */ = {isa = PBXBuildFile; fileRef = DE8EB770207E9AAA009CC75D /* Unity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE8EB792207EB127009CC75D /* TestFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8EB791207EB127009CC75D /* TestFramework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE8EB76D207E9AAA009CC75D /* Unity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Unity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8EB770207E9AAA009CC75D /* Unity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Unity.h; sourceTree = "<group>"; };
 		DE8EB771207E9AAA009CC75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8EB791207EB127009CC75D /* TestFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFramework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				DE8EB770207E9AAA009CC75D /* Unity.h */,
 				DE8EB771207E9AAA009CC75D /* Info.plist */,
+				DE8EB791207EB127009CC75D /* TestFramework.swift */,
 			);
 			path = Unity;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					DE8EB76C207E9AAA009CC75D = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8EB792207EB127009CC75D /* TestFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +258,7 @@
 		DE8EB776207E9AAA009CC75D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -265,6 +271,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.appfoundry.Unity;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -273,6 +280,7 @@
 		DE8EB777207E9AAA009CC75D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
