@@ -11,6 +11,10 @@ import Foundation
 
 public class TestFramework {
     
+    init() {
+        print("init successfully")
+    }
+    
     public func test() {
         print("test framework")
     }
