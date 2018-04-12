@@ -11,7 +11,7 @@ import Foundation
 
 public class TestFramework {
     
-    init() {
+    public init() {
         print("init successfully")
     }
     
